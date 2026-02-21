@@ -46,37 +46,37 @@
 
 
 
-// // const showMessage = (callback) => {
-// //     console.log(callback);
-// // };
+// const showMessage = (callback) => {
+//     console.log(callback);
+// };
 
-// // const firstMessage = (callback) => {
-// //     setTimeout(() => {
-// //         showMessage('Hello');
-// //         callback();
-// //     }, 2000);
-// // }
+// const firstMessage = (callback) => {
+//     setTimeout(() => {
+//         showMessage('Hello');
+//         callback();
+//     }, 2000);
+// }
 
-// // const secondMessage = (callback) => {
-// //     showMessage(('World'))
-// // };
+// const secondMessage = (callback) => {
+//     showMessage(('World'))
+// };
 
 
 // // firstMessage(secondMessage)
 
 
 // //Promise
-// // const promise = new Promise((resolve, reject) => {
-// //     const allwentwell = true;
+const promise = new Promise((resolve, reject) => {
+    const allwentwell = true;
 
-// //     if(allwentwell) {
-// //         resolve('All things went well')
-// //     } else {
-// //         reject('Oops! something went wrong')
-// //     }
-// // });
+    if(allwentwell) {
+        resolve('All things went well')
+    } else {
+        reject('Oops! something went wrong')
+    }
+});
 
-// // console.log(promise)
+console.log(promise)
 
 
 // // const promise = new Promise((resolve, reject) => {
